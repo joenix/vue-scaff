@@ -33,7 +33,7 @@ Next Vue-Engineering Scaffold
 
 ## Documentation
 
-See [http://vue-scaff.joenix.com/](http://vue-scaff.joenix.com/)
+See [http://vue-scaff.joenix.com/](http://vue-scaff.com/)
 
 ### Get started with Vue-Scaff
 
@@ -55,13 +55,13 @@ yarn build
 
 ### H5
 
-- [Preview](http://vue-scaff-demo.joenix.com)
+- [Preview](http://demo.vue-scaff.com)
 
 - [Download](https://github.com/vue-scaff/vue-scaff-demo/archive/vue-scaff-demo-v1.0.zip)
 
 ### Admin
 
-- [Preview](http://vue-scaff-admin.joenix.com)
+- [Preview](http://admin.vue-scaff.com)
 
 - [Download](https://github.com/vue-scaff/vue-scaff-admin/archive/vue-scaff-admin-v1.0.zip)
 
