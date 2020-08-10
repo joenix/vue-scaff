@@ -35,6 +35,9 @@ Next Vue-Engineering Scaffold
 
 See [http://vue-scaff.joenix.com/](http://vue-scaff.com/)
 
+## Repo
+See [Github Vue-Scaff](https://github.com/vue-scaff)
+
 ### Get started with Vue-Scaff
 
 ```sh
