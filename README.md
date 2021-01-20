@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="http://vue-scaff.joenix.com/" target="_blank">
+  <a href="http://vue-scaff.com/" target="_blank">
     <img width="180" src="http://oss.joenix.com/vue-scaff/logo.png" alt="logo">
   </a>
 </div>
@@ -33,7 +33,7 @@ Next Vue-Engineering Scaffold
 
 ## Documentation
 
-See [http://vue-scaff.joenix.com/](http://vue-scaff.joenix.com/)
+See [http://vue-scaff.com/](http://vue-scaff.com/)
 
 ### Get started with Vue-Scaff
 
