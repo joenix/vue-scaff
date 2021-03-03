@@ -5,7 +5,7 @@ import Vue from 'vue';
 import promise from 'promise-super';
 
 // Use Extend
-import ext from './src/ext';
+import inject from './src/inject';
 
 // Use Config
 import conf from './src/conf';
@@ -22,13 +22,22 @@ import utils from './src/utils';
 // Use Apis
 import apis from './src/apis';
 
+// Use Http
+import http from './src/http';
+
+// Use Ext
+import ext from './src/ext';
+
+// Use Style
+import styles from './src/style';
+
 // Use App
 import App from '@/App';
 
 // Set Scaff Class
 class Scaff {
   // Create Scaff
-  constructor({ debug }) {
+  constructor() {
     // Set myType of App
     App.mpType = 'app';
 
@@ -39,7 +48,7 @@ class Scaff {
     Vue.use(filters);
 
     // Extend Any
-    Vue.use(ext, { utils, apis });
+    Vue.use(inject, { appId: ext.appId, utils, styles, apis, http, ext });
 
     // Init App
     const app = new Vue({

@@ -1,18 +1,9 @@
-export default {
-  // For Use
-  install(Vue, modules) {
-    // Get Key
-    const keys = Object.keys(modules);
+import { ext, debug, extAppid } from '@/ext.json';
 
-    // Extend Into Vue
-    keys.forEach((key) => {
-      // Bind On Vue
-      Vue.prototype[`$${key}`] = modules[key];
+ext.appId = extAppid;
 
-      // Bind On Uni
-      if (typeof uni) {
-        uni[`$${key}`] = modules[key];
-      }
-    });
-  },
-};
+ext.debug = debug === undefined ? true : debug;
+
+export default ext;
+
+// export default uni.getExtConfigSync ? uni.getExtConfigSync() : {};

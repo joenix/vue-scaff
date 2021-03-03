@@ -1,3 +1,6 @@
+// Use Exp
+import { debug } from './ext';
+
 export default {
   // For Use
   install(Vue) {
@@ -14,9 +17,13 @@ export default {
     Vue.config.productionTip = false;
 
     // Vue 模块错误
-    Vue.config.errorHandler = function (err, vm, info) {};
+    Vue.config.errorHandler = (err, vm, info) => {
+      return debug ? console.log(err, vm, info) : {};
+    };
 
     // Vue 模块警告
-    Vue.config.warnHandler = function (err, vm, info) {};
+    Vue.config.warnHandler = (err, vm, info) => {
+      return debug ? console.log(err, vm, info) : {};
+    };
   },
 };

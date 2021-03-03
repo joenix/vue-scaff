@@ -1,6 +1,6 @@
 {
   "name": "vue-scaff",
-  "version": "2.0.0-beta.1",
+  "version": "2.0.0-beta.18",
   "description": "vue-scaff",
   "keywords": [
     "vue",
@@ -10,6 +10,10 @@
   "author": "joenix",
   "license": "MIT",
   "dependencies": {
-    "promise-super": "^1.2.0"
+    "promise-super": "^1.2.0",
+    "vconsole": "^3.4.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.0"
   }
 }

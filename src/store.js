@@ -8,6 +8,12 @@ import $utils from './utils';
 // Import Apis
 import $apis from './apis';
 
+// Import Http
+import $http from './http';
+
+// Import Ext
+import $ext from './ext';
+
 // Use Vuex
 Vue.use(Vuex);
 
@@ -21,7 +27,7 @@ context.keys().forEach((key) => {
   const name = key.slice(2, -3).replace(/\/store/g, '').replace('/', '-');
 
   // Get Package
-  const pkg = context(key).default({ ...$utils, $apis });
+  const pkg = context(key).default({ ...$utils, $apis, $http, $ext });
 
   // Set Namespaced
   pkg.namespaced = true;
