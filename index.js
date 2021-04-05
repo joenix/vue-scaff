@@ -4,32 +4,19 @@ import Vue from 'vue';
 // Use Promise
 import promise from 'promise-super';
 
-// Use Extend
-import inject from './src/inject';
-
-// Use Config
-import conf from './src/conf';
-
-// Use Store
-import store from './src/store';
-
-// Use Filters
-import filters from './src/filters';
-
-// Use Utils
-import utils from './src/utils';
-
-// Use Apis
-import apis from './src/apis';
-
-// Use Http
-import http from './src/http';
-
-// Use Ext
-import ext from './src/ext';
-
-// Use Style
-import styles from './src/style';
+/**
+ * @inject  - Pipes Use
+ * @ext     - Extentions
+ * @conf    - Configure of Vue
+ * @store   - Store by Vuex
+ * @filters - Data Filters
+ * @utils   - Tools
+ * @apis    - APIs Mapping
+ * @http    - Request Fetch
+ * @styles  - Sheet of Styles
+ * ========== ========== ==========
+ */
+import { inject, ext, conf, store, filters, utils, apis, http, styles } from './src';
 
 // Use App
 import App from '@/App';
@@ -57,7 +44,7 @@ class Scaff {
     });
 
     // Use Promise for Sugar
-    return new promise((resolve) => resolve(app));
+    return new promise((resolve) => resolve({ app, Vue }));
   }
 }
 
