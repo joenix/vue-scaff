@@ -1,6 +1,9 @@
 // Use Catcher
 import catcher from './catcher';
 
+// Use Efficient
+import efficient from './efficient';
+
 // Import Vue and Vuex
 import Vue from 'vue';
 import Vuex from 'vuex';
@@ -29,7 +32,7 @@ const modules = catcher(context, (depend, key) => {
   const name = key.slice(2, -3).replace(/\/store/g, '').replace('/', '-');
 
   // Get Package by Running
-  const pkg = depend({ ...$utils, $apis, $http, $ext });
+  const pkg = depend(efficient, { ...$utils, $apis, $http, $ext });
 
   // Set Namespaced
   pkg.namespaced = true;
