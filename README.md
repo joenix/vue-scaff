@@ -24,24 +24,25 @@
 
 # Vue Scaff
 
-Next Vue-Engineering Scaffold
+Immersion, Freedom, Out-Of-The-Box
 
 ## Core Team
 
 - [Joenix](http://joenix.com/)
-- Seassol
+- Anko
 
 ## Documentation
 
-See [http://vue-scaff.joenix.com/](http://vue-scaff.joenix.com/)
+See [http://vue-scaff.joenix.com/](http://vue-scaff.com/)
+
+## Repo
+See [Github Vue-Scaff](https://github.com/vue-scaff)
 
 ### Get started with Vue-Scaff
 
 ```sh
 # install
 yarn global add @vue/cli
-# or
-npm i -g @vue/cli
 
 # create an application
 vue create -p vue-scaff/vue-cli-preset --clone <project-name>
@@ -57,13 +58,13 @@ yarn build
 
 ### H5
 
-- [Preview](http://vue-scaff-demo.joenix.com)
+- [Preview](http://demo.vue-scaff.com)
 
 - [Download](https://github.com/vue-scaff/vue-scaff-demo/archive/vue-scaff-demo-v1.0.zip)
 
 ### Admin
 
-- [Preview](http://vue-scaff-admin.joenix.com)
+- [Preview](http://admin.vue-scaff.com)
 
 - [Download](https://github.com/vue-scaff/vue-scaff-admin/archive/vue-scaff-admin-v1.0.zip)
 
