@@ -1,6 +1,6 @@
 // Set Each
 function each(data, callback) {
-  return Object.keys(data).map(key => callback(data[key], key));
+  return Object.keys(data).map((key) => callback(data[key], key));
 }
 
 // Set Merge
@@ -34,7 +34,7 @@ async function catcher(handler, root, params) {
  * States
  * ======== ======== ========
  */
-export function states(settings = {}) {
+function states(settings = {}) {
   return {
     error: false,
     ...settings,
@@ -45,7 +45,7 @@ export function states(settings = {}) {
  * Actions
  * ======== ======== ========
  */
-export function actions(settings = {}) {
+function action(settings = {}) {
   // Set Json
   const json = {};
 
@@ -74,7 +74,7 @@ export function actions(settings = {}) {
  * Mutations
  * ======== ======== ========
  */
-export function mutations(settings = {}) {
+function mutation(settings = {}) {
   // Set Json
   const json = {
     STATE_UPDATE(state, data) {
