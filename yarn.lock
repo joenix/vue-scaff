@@ -2,6 +2,24 @@
 # yarn lockfile v1
 
 
+clone@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
+  integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
+
+deepeach@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/deepeach/-/deepeach-2.0.1.tgz#4c893fd367af4a50afe40ddbd4a887d6961b1a7b"
+  integrity sha512-pJ1En9CuxgWbXURNmFwkTB/uucrdpfhD8E5EiofhI0ezPwDkhiyskANYQ71isKr4iwzzVENiy0QlKxAlzvOEjA==
+
+foreach.js@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/foreach.js/-/foreach.js-2.0.2.tgz#8b8216019460962c717ff70402169f96d1d7e29d"
+  integrity sha512-gTLlkFkyuSGvbbMByAnODxl0IGoWajLD6YlpXpfF/oKKQRcT9uMgH0a005HAIFaUIfj0UQt1xpFwTdlj5E2i0w==
+  dependencies:
+    clone "^2.1.2"
+    deepeach "^2.0.1"
+
 mutation-observer@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/mutation-observer/-/mutation-observer-1.0.3.tgz#42e9222b101bca82e5ba9d5a7acf4a14c0f263d0"
