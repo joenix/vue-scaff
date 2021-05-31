@@ -1,20 +1,12 @@
+// Use Foreach
+import foreach from 'foreach.js';
+
+// Use Merge
+import merge from './merge';
+
 // Set Each
 function each(data, callback) {
-  return Object.keys(data).map((key) => callback(data[key], key));
-}
-
-// Set Merge
-function merge(origin = {}, target = {}) {
-  // Foreach
-  each(target, (value, key) => {
-    // Set Value if Not Null
-    if (![undefined, null].includes(value)) {
-      origin[key] = value;
-    }
-  });
-
-  // Export
-  return origin;
+  return Object.keys(data).map(key => callback(data[key], key));
 }
 
 // Set Catcher
