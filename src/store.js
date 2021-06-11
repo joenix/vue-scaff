@@ -32,7 +32,19 @@ const modules = catcher(context, (depend, key) => {
   const name = key.slice(2, -3).replace(/\/store/g, '').replace('/', '-');
 
   // Get Package by Running
-  const pkg = depend(efficient, { ...$utils, $apis, $http, $ext });
+  const pkg = depend({ ...$utils, $apis, $http, $ext });
+
+  // Get Parts
+  const { states, mutation, action } = efficient;
+
+  // Reset State
+  pkg.state = states(pkg.state);
+
+  // Reset Mutations
+  pkg.mutations = mutation(pkg.mutations);
+
+  // Reset Actions
+  pkg.actions = action(pkg.actions);
 
   // Set Namespaced
   pkg.namespaced = true;
