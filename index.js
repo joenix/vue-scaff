@@ -44,7 +44,7 @@ class Scaff {
     });
 
     // Use Promise for Sugar
-    return new promise((resolve) => resolve({ app, Vue }));
+    return new promise(resolve => resolve({ app, Vue }));
   }
 }
 
