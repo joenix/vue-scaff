@@ -65,6 +65,6 @@ npx create-vue-scaff project-name
 | [Preview](http://demo.vue-scaff.com)                                                    | [Preview](http://admin.vue-scaff.com)                                                     | No Preview                                                                                 |
 | [Download](https://github.com/vue-scaff/vue-scaff-demo/archive/vue-scaff-demo-v1.0.zip) | [Download](https://github.com/vue-scaff/vue-scaff-admin/archive/vue-scaff-admin-v1.0.zip) | [Download](https://github.com/vue-scaff/vue-scaff-electron/archive/vue-scaff-electron.zip) |
 
-## License
+## license
 
 [MIT](https://img.shields.io/badge/license-MIT-738bd7)
