@@ -8,5 +8,10 @@
     "vue-scaff"
   ],
   "author": "joenix",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joenix/vue-scaff.git"
+  },
+  "homepage": "http://vue-scaff.com/",
   "license": "MIT"
 }
