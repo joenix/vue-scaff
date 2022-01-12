@@ -1,76 +1,69 @@
-<div align="center">
+<p align="center">
   <a href="http://vue-scaff.joenix.com/" target="_blank">
-    <img width="180" src="http://oss.joenix.com/vue-scaff/logo.png" alt="logo">
+    <img width="240" src="http://oss.joenix.com/vue-scaff/vue-scaff-fox.png" alt="logo">
   </a>
-</div>
+</p>
 
-<div align="center">
-  <a target="_blank" href="https://github.com/vue-scaff/vue-scaff-demo/archive/vue-scaff-demo-v1.0.zip">
-    <img src="https://img.shields.io/badge/Download-v5.1.12-brightgreen" alt="download">
+<p align="center">
+  <a target="_blank" href="https://npmcharts.com/compare/@scaff/environ?minimal=true">
+    <img src="https://img.shields.io/npm/dm/@scaff/environ.svg" alt="download">
   </a>
-  <a target="_blank" href="https://www.npmjs.com/package/@scaff/vue-cli-scaff">
-    <img src="https://img.shields.io/badge/npm-v5.2.12-ea2039" alt="npm">
-  </a>
-  <a target="_blank" href="https://github.com/vue-scaff/vue-cli-scaff">
-    <img src="https://img.shields.io/badge/github-v5.2.12-blue" alt="github">
-  </a>
-  <a target="_blank" href="https://github.com/vue-scaff/vue-cli-scaff/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-green" alt="npm">
-  </a>
-  <a target="_blank" href="https://discord.gg/xxu5V5C">
-    <img src="https://img.shields.io/badge/license-MIT-738bd7" alt="npm">
-  </a>
-</div>
 
-# Vue Scaff
+  <a target="_blank" href="https://www.npmjs.com/package/vue-scaff">
+    <img src="https://img.shields.io/npm/v/@scaff/version.svg" alt="npm" />
+  </a>
 
-Immersion, Freedom, Out-Of-The-Box
+  <a target="_blank" href="https://github.com/joenix/vue-scaff">
+    <img src="https://img.shields.io/github/package-json/v/joenix/vue-scaff" alt="github" />
+  </a>
 
-## Core Team
+  <a target="_blank" href="https://github.com/joenix/vue-scaff">
+    <img src="https://img.shields.io/npm/l/@scaff/version" alt="github" />
+  </a>
+</p>
+
+# vue-scaff
+
+A UNIQUE VUE SCAFFOLDING
+
+## core team
 
 - [Joenix](http://joenix.com/)
 - Anko
 
-## Documentation
+## docs
 
-See [http://vue-scaff.joenix.com/](http://vue-scaff.com/)
+See [http://vue-scaff.com/](http://vue-scaff.com/)
 
-## Repo
+## repo
+
 See [Github Vue-Scaff](https://github.com/vue-scaff)
 
-### Get started with Vue-Scaff
+### get started
 
 ```sh
-# install
-yarn global add @vue/cli
+# yarn
+yarn create vue-scaff project-name
 
-# create an application
-vue create -p vue-scaff/vue-cli-preset --clone <project-name>
+# npm
+npm create vue-scaff project-name
 
-# start coding
-yarn serve
-
-# build project
-yarn build
+# npx
+npx create-vue-scaff project-name
 ```
 
-## Demos
+### demo
 
-### H5
+| vite                                            | vue-cli                                       |
+| ----------------------------------------------- | --------------------------------------------- |
+| [vite.vue-scaff.com](http://vite.vue-scaff.com) | [cli.vue-scaff.com](http://cli.vue-scaff.com) |
 
-- [Preview](http://demo.vue-scaff.com)
+### version 2.x
 
-- [Download](https://github.com/vue-scaff/vue-scaff-demo/archive/vue-scaff-demo-v1.0.zip)
-
-### Admin
-
-- [Preview](http://admin.vue-scaff.com)
-
-- [Download](https://github.com/vue-scaff/vue-scaff-admin/archive/vue-scaff-admin-v1.0.zip)
-
-### Electron
-
-- [Download](https://github.com/vue-scaff/vue-scaff-electron/archive/vue-scaff-electron.zip)
+| H5                                                                                      | Admin                                                                                     | Electron                                                                                   |
+| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [Preview](http://demo.vue-scaff.com)                                                    | [Preview](http://admin.vue-scaff.com)                                                     | No Preview                                                                                 |
+| [Download](https://github.com/vue-scaff/vue-scaff-demo/archive/vue-scaff-demo-v1.0.zip) | [Download](https://github.com/vue-scaff/vue-scaff-admin/archive/vue-scaff-admin-v1.0.zip) | [Download](https://github.com/vue-scaff/vue-scaff-electron/archive/vue-scaff-electron.zip) |
 
 ## License
 
