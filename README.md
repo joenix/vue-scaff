@@ -62,8 +62,8 @@ npx create-vue-scaff project-name
 
 | H5                                                                                      | Admin                                                                                     | Electron                                                                                   |
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [Preview](http://demo.vue-scaff.com)                                                    | [Preview](http://admin.vue-scaff.com)                                                     | No Preview                                                                                 |
-| [Download](https://github.com/vue-scaff/vue-scaff-demo/archive/vue-scaff-demo-v1.0.zip) | [Download](https://github.com/vue-scaff/vue-scaff-admin/archive/vue-scaff-admin-v1.0.zip) | [Download](https://github.com/vue-scaff/vue-scaff-electron/archive/vue-scaff-electron.zip) |
+| [preview](http://demo.vue-scaff.com)                                                    | [preview](http://admin.vue-scaff.com)                                                     | No preview                                                                                 |
+| [download](https://github.com/vue-scaff/vue-scaff-demo/archive/vue-scaff-demo-v1.0.zip) | [download](https://github.com/vue-scaff/vue-scaff-admin/archive/vue-scaff-admin-v1.0.zip) | [download](https://github.com/vue-scaff/vue-scaff-electron/archive/vue-scaff-electron.zip) |
 
 ## license
 
