@@ -28,8 +28,12 @@ A UNIQUE VUE SCAFFOLDING
 
 ## core team
 
-- [Joenix](http://joenix.com/)
-- Anko
+| Member                       | Github                                     | NPM                                          |
+| ---------------------------- | ------------------------------------------ | -------------------------------------------- |
+| [Joenix](http://joenix.com/) | [Github](https://github.com/joenix)        | [NPM](https://www.npmjs.com/~joenix)         |
+| Anko                         | [Github](https://github.com/AtlantaCaesar) | [NPM](https://www.npmjs.com/~bald-developer) |
+| Caption Wang                 | [Github](https://github.com/seassol)       | [NPM](https://www.npmjs.com/~captionwang)    |
+| QH Huang                     | [Github](https://github.com/qhhuang)       | [NPM](https://www.npmjs.com/~qhhuang)        |
 
 ## docs
 
