@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="http://vue-scaff.joenix.com/" target="_blank">
-    <img width="240" src="http://oss.joenix.com/vue-scaff/vue-scaff-fox.png" alt="logo">
+  <a href="https://vue-scaff.com/" target="_blank">
+    <img width="240" src="https://oss.vue-scaff.com/vue-scaff-fox.png" alt="logo">
   </a>
 </p>
 
@@ -24,7 +24,7 @@
 
 # vue-scaff
 
-A UNIQUE VUE SCAFFOLDING
+A FAST CONFIGURABLE VUE SCAFFOLD
 
 ## core team
 
@@ -37,11 +37,15 @@ A UNIQUE VUE SCAFFOLDING
 
 ## docs
 
-See [http://vue-scaff.com/](http://vue-scaff.com/)
+See [https://vue-scaff.com/](https://vue-scaff.com/)
 
 ## repo
 
-See [Github Vue-Scaff](https://github.com/vue-scaff)
+Group See [Github Vue-Scaff](https://github.com/vue-scaff)
+
+| vite                                             | vue-cli                                        | electron | uni-app |
+| ------------------------------------------------ | ---------------------------------------------- | --- | --- |
+| [vue-scaff-v3-vite](https://github.com/vue-scaff/vue-scaff-v3-vite) | [vue-scaff-v3-cli](https://github.com/vue-scaff/vue-scaff-v3-cli) | [vue-scaff-v3-electron](https://github.com/vue-scaff/vue-scaff-v3-electron) | [vue-scaff-v3-uni](https://github.com/vue-scaff/vue-scaff-v3-uni) |
 
 ### get started
 
@@ -58,9 +62,9 @@ npx create-vue-scaff project-name
 
 ### demo
 
-| vite                                            | vue-cli                                       |
-| ----------------------------------------------- | --------------------------------------------- |
-| [vite.vue-scaff.com](http://vite.vue-scaff.com) | [cli.vue-scaff.com](http://cli.vue-scaff.com) |
+| vite                                             | vue-cli                                        |
+| ------------------------------------------------ | ---------------------------------------------- |
+| [vite.vue-scaff.com](https://vite.vue-scaff.com) | [cli.vue-scaff.com](https://cli.vue-scaff.com) |
 
 ### version 2.x
 
